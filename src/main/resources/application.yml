@@ -1,4 +1,7 @@
 spring:
+  batch:
+    job.names: ${job.name:NONE}
+
   datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://syh80882.cafe24.com/syh80882
